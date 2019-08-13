@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ background-color: #f4f4f4; 
+}
+
+ul.navbar-nav {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.hero-1 {
+  background-image: url('../pics/it-server.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0 !important;
+  min-height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.hero-1 h1 {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.motto {
+  margin-left: 0 !important;
+  display: block;
+  text-align: center;
+/*  padding: 25px !important;*/
+}
+
+.company-statement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 20px;
+  min-height: 300px;
+  background-color: #f4f4f4;
+}
+
+.company-statement p {
+  margin-bottom: 0; 
+}
+
+.company-statement h4 {
+  font-size: 2.4rem !important;
+  font-weight: 350;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 55vh;
+  background-color: #dedede;
+  padding: 0 20px;
+}
+
+.about-us h4 {
+  font-size: 1.8rem !important;
+  font-weight: 350;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.about-us p {
+  margin-top: 20px;
+}
+
+.persuasive-div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 35px 0;
+  min-height: 320px;
+  background-color: #7C37DE;
+  text-align: center;
+}
+
+.persuasive-div h4 {
+  margin-bottom: 45px; 
+}
+
+.txt-div {
+  margin-top: 5px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #fff;
+}
+
+.pers-div-box h5 {
+  margin-bottom: 10px;
+}
+
+.pers-div-box h1 {
+  margin-top: 10px;
+}
+
+
+
+.get-in-touch {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  background-color: #545454;
+  color: #f4f4f4;
+}
+
+.get-in-touch a {
+  margin: 0 auto;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 2px solid #f4f4f4;
+  color: #f4f4f4;
+  cursor: pointer;
+  transition: .2s;
+  width: 40%;
+}
+
+.get-in-touch a:hover {
+  border: 2px solid #545454;
+  color: #545454;
+  background-color: #f4f4f4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.footer {
+  padding: 10px;
+  background-color: #1f1f1f;
+  color: #545454;
+  text-align: center;
+}
+
+.social-media {
+  margin: 10px auto;
+  display: flex;
+  color: #f4f4f4;
+  font-size: 1.5em;
+  justify-content: space-evenly;
+  width: 45%;
+  color: #545454;
+}
+
+.social-media i:hover {
+  color: #f4f4f4;
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+/*No media query for `xs` since this is the default in Bootstrap*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media only screen and (min-width: 576px) { ... }
+
+/*Medium devices (tablets, 768px and up)*/
+@media only screen and (min-width: 768px) { 
+  
+  .company-statement {
+    padding: 20px;
+  }
+  
+  .persuasive-div {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .persuasive-div h4 {
+    display: block;
+    width: 100%;
+  }
+  
+  .pers-div-box {
+    display: flex;
+    flex-direction: column;
+    width: 30%; 
+  }
+  
+  .os-inner-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+ 
+
+/*Large devices (desktops, 992px and up)*/
+@media only screen and(min-width: 992px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media only screen and(min-width: 1200px) { ... }
