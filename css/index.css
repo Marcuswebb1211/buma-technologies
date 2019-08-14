@@ -12,6 +12,8 @@ ul.navbar-nav {
   width: 90%;
   margin: 0 auto;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .hero-1 {
