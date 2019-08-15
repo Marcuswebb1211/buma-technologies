@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+ul.navbar-nav {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-us {
+  padding: 10px;
+  min-height: 180vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact-us h2 {
+  text-align: center;
+  font-size: 2rem !important;
+}
+
+.contact-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 40rem;
+  width: 90%;
+  background-color: #7c37de;
+  border-radius: 7px;
+}
+
+.form-group {
+  width: 80%;
+}
+
+.submit-btn {
+  width: 35%;
+  height: 7%;
+}
+
+.footer {
+  padding: 10px;
+  background-color: #1f1f1f;
+  color: #545454;
+  text-align: center;
+}
+
+.social-media {
+  margin: 10px auto;
+  display: flex;
+  color: #f4f4f4;
+  font-size: 1.5em;
+  justify-content: space-evenly;
+  width: 45%;
+  color: #545454;
+}
+
+.social-media i:hover {
+  color: #f4f4f4;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+/*No media query for `xs` since this is the default in Bootstrap*/
+
+/*Small devices (landscape phones, 576px and up)*/
+/* @media only screen and (min-width: 576px) { ... } */
+
+/*Medium devices (tablets, 768px and up)*/
+@media only screen and (min-width: 768px) {
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 45rem;
+    width: 45%;
+    background-color: #7c37de;
+    border-radius: 7px;
+  }
+
+  .contact-us h2 {
+    text-align: center;
+    font-size: 2.5rem !important;
+  }
+
+  .form-group {
+    width: 80%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and(min-width: 992px) {
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) {
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 45rem;
+    width: 35%;
+    background-color: #7c37de;
+    border-radius: 7px;
+  }
+}
